@@ -1,3 +1,3 @@
 # nextdragonxyz
 
-Currently WIP
+Currently WIP, old website repo: https://github.com/catruinerxyz
