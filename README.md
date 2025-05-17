@@ -1,3 +1,1 @@
-# nextdragonxyz
-
-Currently WIP, old website repo: https://github.com/catruinerxyz
+# [nextdragon.is-a.dev](https://nextdragon.dev)
