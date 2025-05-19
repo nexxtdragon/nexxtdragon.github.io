@@ -44,6 +44,7 @@
             inset 0 0 10px rgba(0, 102, 255, 0.2);
             position: relative;
             animation: fadeIn 0.8s ease-in-out;
+
         }
 
         .bio-box-tall {
@@ -66,6 +67,7 @@
             inset 0 0 10px rgba(0, 102, 255, 0.2);
             position: relative;
             animation: fadeIn 0.8s ease-in-out;
+
         }
 
         .bio-box-tall::before {
@@ -128,7 +130,7 @@
 
         a img { transition: transform 0.2s; }
         a:hover img { transform: scale(1.05); }
-            
+
         @media only screen and (max-width: 768px) {
             body {
                 display: block;
@@ -147,6 +149,7 @@
                 height: auto;
                 margin: 0 auto 20px;
                 padding: 20px;
+                animation: fadeIn 0.8s ease-in-out;
             }
             
             .bio-box-tall {
@@ -165,6 +168,7 @@
             @keyframes fadeIn {
             from { opacity: 0; transform: translateY(10px); }
             to { opacity: 1; transform: translateY(0); }
+}
 
             </style>
     </head>
@@ -191,15 +195,15 @@
             <h2>OS:</h2>
 
             <a href="https://nixos.org" target="_blank" rel="noopener noreferrer">
-                <img src="https://img.shields.io/badge/NixOS-5277C3?style=for-the-badge&logo=nixos&logoColor=fff" alt="NixOS">
+                <img src="assets/nixos.svg" alt="NixOS">
             </a>
 
             <a href="https://archlinux.org" target="_blank" rel="noopener noreferrer">
-                <img src="https://img.shields.io/badge/Arch%20Linux-1793D1?style=for-the-badge&logo=arch-linux&logoColor=fff" alt="Arch Linux">
+                <img src="assets/arch.svg" alt="Arch Linux">
             </a>
 
             <a href="https://ubuntu.com" target="_blank" rel="noopener noreferrer">
-                <img src="https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white" alt="Ubuntu">
+                <img src="assets/ubuntu.svg" alt="Ubuntu">
             </a>
         </section>
         <hr style="border: 1px solid rgb(255, 255, 255); width: 30%; margin: 0 auto; margin-top: 30px; margin-bottom: 30px;">
@@ -207,11 +211,11 @@
             <h2>IDEs/Game engines:</h2>
 
             <a href="https://code.visualstudio.com" target="_blank" rel="noopener noreferrer">
-                <img src="https://custom-icon-badges.demolab.com/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=vsc&logoColor=white" alt="Visual Studio Code">              
+                <img src="assets/vsc.svg" alt="Visual Studio Code">              
             </a>
 
             <a href="https://rpgmakerweb.com" target="_blank" rel="noopener noreferrer">
-                <img src="https://custom-icon-badges.demolab.com/badge/RPG%20Maker%20VX-4B8BBE.svg?style=for-the-badge&logo=rpgmakervx&logoColor=white" alt="RPG Maker VX">
+                <img src="assets/rpgvx.svg" alt="RPG Maker VX">
             </a>
         </section>
         <hr style="border: 1px solid rgb(255, 255, 255); width: 30%; margin: 0 auto; margin-top: 30px; margin-bottom: 30px;">
@@ -219,19 +223,19 @@
             <h2>Languages:</h2>
 
             <a href="https://en.wikipedia.org/wiki/HTML" target="_blank" rel="noopener noreferrer">
-                <img src="https://custom-icon-badges.demolab.com/badge/HTML-E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" alt="HTML">
+                <img src="assets/html.svg" alt="HTML">
                 </a>
 
             <a href="https://en.wikipedia.org/wiki/CSS" target="_blank" rel="noopener noreferrer">
-                <img src="https://custom-icon-badges.demolab.com/badge/CSS-1572B6.svg?style=for-the-badge&logo=css3&logoColor=white" alt="CSS">
+                <img src="assets/css.svg" alt="CSS">
                 </a><br>
 
                 <a href="https://en.wikipedia.org/wiki/Bash_(Unix_shell)" target="_blank" rel="noopener noreferrer">
-                <img src="https://custom-icon-badges.demolab.com/badge/Bash-4EAA25.svg?style=for-the-badge&logo=gnubash&logoColor=white" alt="Bash">
+                <img src="assets/bash.svg" alt="Bash">
                 </a>
 
             <a href="https://www.python.org" target="_blank" rel="noopener noreferrer">
-                <img src="https://custom-icon-badges.demolab.com/badge/Python-3776AB.svg?style=for-the-badge&logo=python&logoColor=white" alt="Python">
+                <img src="assets/python.svg" alt="Python">
             </a>
 
         </section>
@@ -244,29 +248,30 @@
             <section class="links">
                 <hr style="border: 1px solid rgb(255, 255, 255); width: 10%; margin: 0 auto; margin-top: 10px; margin-bottom: 20px;">
             <a href="https://t.me/nextdragon" target="_blank" rel="noopener noreferrer">
-                <img src="https://custom-icon-badges.demolab.com/badge/Telegram-26A5E4.svg?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram">
+                <img src="assets/tg.svg" alt="Telegram">
             </a>
 
             <a href="https://discord.com/users/1290204703770284105">
-                <img src="https://custom-icon-badges.demolab.com/badge/Discord-5865F2.svg?style=for-the-badge&logo=discord&logoColor=white" alt="Discord">
+                <img src="assets/dc.svg" alt="Discord">
             </a>
 
             <a href="mailto:nextdragon.dev@proton.me" target="_blank" rel="noopener noreferrer">
-                <img src="https://img.shields.io/badge/Proton%20Mail-6D4AFF?style=for-the-badge&logo=protonmail&logoColor=fff" alt="Proton Mail">
+                <img src="assets/mail.svg" alt="Proton Mail">
             </a>
             <br>
             <a href="https://github.com/nexxtdragon" target="_blank" rel="noopener noreferrer">
-                <img src="https://custom-icon-badges.demolab.com/badge/GitHub-181717.svg?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
+                <img src="assets/github.svg" alt="GitHub">
             </a>
 
             <a href="https://tiktok.com/@nexxtdragon" target="_blank" rel="noopener noreferrer">
-                <img src="https://custom-icon-badges.demolab.com/badge/TikTok-000000.svg?style=for-the-badge&logo=tiktok&logoColor=white" alt="TikTok">
+                <img src="assets/tiktok.svg" alt="TikTok">
             </a>
 
             <a href="https://discord.gg/qV4Ye3hGNm" target="_blank" rel="noopener noreferrer">
-                <img src="https://custom-icon-badges.demolab.com/badge/Discord%20Server-5865F2.svg?style=for-the-badge&logo=discord&logoColor=white" alt="Discord Server">
+                <img src="assets/dcserver.svg" alt="Discord Server">
+
             </a>
-                
+
         </section>
         </div>
     </div>
